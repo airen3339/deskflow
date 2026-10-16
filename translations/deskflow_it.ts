@@ -326,13 +326,6 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
-    <name>ComputerSetupModel</name>
-    <message>
-        <source>&lt;center&gt;Computer: &lt;b&gt;%1&lt;/b&gt;&lt;/center&gt;&lt;br&gt;Double click to edit settings&lt;br&gt;Drag computer to the trashcan to remove it</source>
-        <translation type="unfinished">&lt;center&gt;Computer: &lt;b&gt;%1&lt;/b&gt;&lt;/center&gt;&lt;br&gt;Fai doppio clic per modificare le impostazioni&lt;br&gt;Trascina il computer nel cestino per rimuoverlo</translation>
-    </message>
-</context>
-<context>
     <name>FingerprintDialog</name>
     <message>
         <source>Local Fingerprints</source>
@@ -920,6 +913,10 @@ Inoltre, verifica di poter %1 il file di configurazione del server: %2</translat
     <message>
         <source>Super</source>
         <translation type="unfinished">Super</translation>
+    </message>
+    <message>
+        <source>&lt;center&gt;Computer: &lt;b&gt;%1&lt;/b&gt;&lt;/center&gt;&lt;br&gt;Drag next to another computer to link their edges&lt;br&gt;Drag the right or bottom edge to resize&lt;br&gt;Double click to edit settings&lt;br&gt;Drag computer to the trashcan to remove it</source>
+        <translation type="unfinished">&lt;center&gt;Computer: &lt;b&gt;%1&lt;/b&gt;&lt;/center&gt;&lt;br&gt;Trascina accanto a un altro computer per collegarne i bordi&lt;br&gt;Trascina il bordo destro o inferiore per ridimensionare&lt;br&gt;Fai doppio clic per modificare le impostazioni&lt;br&gt;Trascina il computer nel cestino per rimuoverlo</translation>
     </message>
 </context>
 <context>

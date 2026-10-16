@@ -326,13 +326,6 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
-    <name>ComputerSetupModel</name>
-    <message>
-        <source>&lt;center&gt;Computer: &lt;b&gt;%1&lt;/b&gt;&lt;/center&gt;&lt;br&gt;Double click to edit settings&lt;br&gt;Drag computer to the trashcan to remove it</source>
-        <translation type="unfinished">&lt;center&gt;コンピュータ: &lt;b&gt;%1&lt;/b&gt;&lt;/center&gt;&lt;br&gt;ダブルクリックして設定を編集&lt;br&gt;コンピュータをゴミ箱にドラッグして削除</translation>
-    </message>
-</context>
-<context>
     <name>FingerprintDialog</name>
     <message>
         <source>Local Fingerprints</source>
@@ -922,6 +915,10 @@ Additionally, check you are able to %1 the server config file: %2</source>
     <message>
         <source>Super</source>
         <translation type="unfinished">Super</translation>
+    </message>
+    <message>
+        <source>&lt;center&gt;Computer: &lt;b&gt;%1&lt;/b&gt;&lt;/center&gt;&lt;br&gt;Drag next to another computer to link their edges&lt;br&gt;Drag the right or bottom edge to resize&lt;br&gt;Double click to edit settings&lt;br&gt;Drag computer to the trashcan to remove it</source>
+        <translation type="unfinished">&lt;center&gt;コンピュータ: &lt;b&gt;%1&lt;/b&gt;&lt;/center&gt;&lt;br&gt;他のコンピュータの隣にドラッグして端をつなげる&lt;br&gt;右端または下端をドラッグしてサイズを変更&lt;br&gt;ダブルクリックして設定を編集&lt;br&gt;コンピュータをゴミ箱にドラッグして削除</translation>
     </message>
 </context>
 <context>
