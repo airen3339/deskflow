@@ -1716,7 +1716,13 @@ CGEventRef OSXComputer::handleCGInputEvent(CGEventTapProxy proxy, CGEventType ty
     }
     break;
   case kCGEventTapDisabledByUserInput:
-    LOG_ERR("quartz event tap was disabled by user input");
+    // Secure input disables the tap, and the lock screen engages secure input, so
+    // this fires on every display-off. Without re-enabling, input capture stays
+    // dead for the lifetime of the process while the connection looks healthy.
+    if (computer->checkAXPermissions()) {
+      CGEventTapEnable(computer->m_eventTapPort, true);
+      LOG_INFO("quartz event tap was disabled by user input, re-enabling");
+    }
     break;
   case NX_NULLEVENT:
     break;
